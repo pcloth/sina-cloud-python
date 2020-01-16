@@ -1,0 +1,2 @@
+worker: nginx -c /root/conf/nginx_base.conf
+web: gunicorn manage:app -c gunicorn.conf
